@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Confirmar_Senha</class>
+ <widget class="QMainWindow" name="Confirmar_Senha">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>914</width>
+    <height>587</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="img_medico_fundo">
+    <property name="geometry">
+     <rect>
+      <x>-80</x>
+      <y>0</y>
+      <width>1001</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>:/imagens/image 4imagem_medico.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_recuperar_senha">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>120</y>
+      <width>371</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_retangulo">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>371</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="QRC_login.qrc">:/imagens/imagens/Rectangle_18backgroundarealogar-removebg-preview.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_estoque_medico">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>10</y>
+       <width>361</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#ffffff;&quot;&gt;Estoque Médico&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_senha">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>351</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+   border:none;
+   border-bottom: 1px solid #fff; 
+   background-color: transparent;
+   color:#fff;
+   font-size: 20px;
+   padding-left: 10px;
+
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Senha</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_confirmar_senha">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>351</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+   border:none;
+   border-bottom: 1px solid #fff; 
+   background-color: transparent;
+   color:#fff;
+   font-size: 20px;
+   padding-left: 10px;
+
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Confirmar Senha</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Button_confirmar_senha">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>351</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	color : #fffffffff;
+	background-color : #154583;
+	border : none;
+	font-size: 20px;
+	font-style: montserrat;
+}</string>
+     </property>
+     <property name="text">
+      <string>Confirmar Senha</string>
+     </property>
+    </widget>
+    <zorder>label_retangulo</zorder>
+    <zorder>lineEdit_senha</zorder>
+    <zorder>lineEdit_confirmar_senha</zorder>
+    <zorder>Button_confirmar_senha</zorder>
+    <zorder>label_estoque_medico</zorder>
+   </widget>
+   <widget class="QLabel" name="lateral_esquerda">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>61</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="QRC_login.qrc">:/imagens/imagens/barra_lateral_esquerda.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_efeito_senac_hub">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>-20</y>
+      <width>331</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="QRC_login.qrc">:/imagens/imagens/Group_37hubacademyefeito-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lateral_direita">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>0</y>
+      <width>61</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="QRC_login.qrc">:/imagens/imagens/Group 10desenhoesquerdo_login.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_efeito_traseiro">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>380</y>
+      <width>47</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="QRC_login.qrc">:/imagens/imagens/Frame_1efeitoatrasdaarealogar-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>img_medico_fundo</zorder>
+   <zorder>lateral_esquerda</zorder>
+   <zorder>label_efeito_senac_hub</zorder>
+   <zorder>frame_recuperar_senha</zorder>
+   <zorder>lateral_direita</zorder>
+   <zorder>label_efeito_traseiro</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="QRC_login.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>403</width>
+    <height>195</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>403</width>
+    <height>195</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>403</width>
+    <height>195</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btn_foto_de_perfil_bola">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-radius: 5px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="GitHub/Estoque-Medico/QRC_login.qrc">
+     <normaloff>:/imagens/imagens/perfil_bola.png</normaloff>:/imagens/imagens/perfil_bola.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>124</width>
+     <height>89</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_foto_de_perfil_gato">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="GitHub/Estoque-Medico/QRC_login.qrc">
+     <normaloff>:/imagens/imagens/foto_pefil_gato.png</normaloff>:/imagens/imagens/foto_pefil_gato.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>102</width>
+     <height>119</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_foto_de_perfil_cachorro">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>40</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="GitHub/Estoque-Medico/QRC_login.qrc">
+     <normaloff>:/imagens/imagens/cachorro_perfil.png</normaloff>:/imagens/imagens/cachorro_perfil.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>103</width>
+     <height>104</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="GitHub/Estoque-Medico/QRC_login.qrc"/>
+ </resources>
+ <connections/>
+</ui>

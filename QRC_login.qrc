@@ -1,0 +1,44 @@
+<RCC>
+  <qresource prefix="imagens">
+    <file>imagens/cachorro_perfil.png</file>
+    <file>imagens/pencil_edit.png</file>
+    <file>imagens/perfil_bola.png</file>
+    <file>imagens/foto_pefil_gato.png</file>
+    <file>imagens/icon_-.png</file>
+    <file>imagens/perfil_bola.png</file>
+    <file>imagens/image 4imagem_medico.jpg</file>
+    <file>imagens/Group 50imagens2.jpg</file>
+    <file>imagens/searchmagnifierinterfacesymbol1_79893.ico</file>
+    <file>imagens/Group 49tracinhos.jpg</file>
+    <file>image 4imagem_medico.jpg</file>
+    <file>imagens/retangulo preto e azul.jpg</file>
+    <file>imagens/Group 50imagens2.jpg</file>
+    <file>Group 49tracinhos.jpg</file>
+    <file>Group 50imagens2.jpg</file>
+    <file>imagens/profileimg.jpg</file>
+    <file>imagens/barra do perfil.png</file>
+    <file>imagens/img_medico.ico</file>
+    <file>imagens/barra_lateral_direita.png</file>
+    <file>imagens/barra_lateral_esquerda.png</file>
+    <file>imagens/cadastra usuario.png</file>
+    <file>imagens/icon_edit_product.png</file>
+    <file>imagens/icon_retirar_produt.png</file>
+    <file>imagens/icon_add_product.png</file>
+    <file>imagens/Frame_1efeitoatrasdaarealogar-removebg-preview.png</file>
+    <file>imagens/Group 10desenhoesquerdo_login.jpg</file>
+    <file>imagens/Group_36barraladoesquerdo_login-removebg-preview.png</file>
+    <file>imagens/Group_37hubacademyefeito-removebg-preview.png</file>
+    <file>imagens/icons8-logout-25.png</file>
+    <file>imagens/icons8-logout-rounded-left-30.png</file>
+    <file>imagens/icons8-medical-25.png</file>
+    <file>imagens/icons8-store-setting-25.png</file>
+    <file>imagens/lista.png</file>
+    <file>imagens/medica_imagemlogin.jpg</file>
+    <file>imagens/Rectangle_18backgroundarealogar-removebg-preview.png</file>
+    <file>imagens/icons8-store-setting-25.png</file>
+    <file>imagens/list_icon.png</file>
+    <file>imagens/perfil_icon.png</file>
+    <file>imagens/sair_icon.png</file>
+    <file>imagens/usuario_icon.png</file>
+  </qresource>
+</RCC>

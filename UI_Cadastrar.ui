@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tela_Cadastrar</class>
+ <widget class="QMainWindow" name="Tela_Cadastrar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>919</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>919</width>
+    <height>597</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>919</width>
+    <height>597</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame_area_cadastrar">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>90</y>
+      <width>371</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="img_backgroud_cadastrar">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>371</width>
+       <height>411</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="QRC_login.qrc">:/imagens/imagens/Rectangle_18backgroundarealogar-removebg-preview.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_cadastrar">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>351</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	color : #fffffffff;
+	background-color : #154583;
+	border : none;
+	font-size: 20px;
+	font-style: montserrat;
+}</string>
+     </property>
+     <property name="text">
+      <string>Cadastre-se</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inp_email_cadastrar">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>351</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	border: none; /* Remove a borda padrão */
+    border-bottom: 1px solid #fff; /* Adiciona uma borda inferior de 1px sólida */
+    background-color: transparent;/* Define o Background como transparente*/
+	color: #fffffffff;
+	font-size: 20px; /* Defina o tamanho do texto do placeholder desejado */
+	padding-left: 10px;
+	font-style: montserrat;
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+     </property>
+     <property name="dragEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string notr="true">E-mail</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inp_nome_cadastrar">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>351</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	border: none; /* Remove a borda padrão */
+    border-bottom: 1px solid #fff; /* Adiciona uma borda inferior de 1px sólida */
+    background-color: transparent;/* Define o Background como transparente*/
+	color: #fffffffff;
+	font-size: 20px; /* Defina o tamanho do texto do placeholder desejado */
+	padding-left: 10px;
+	font-style: montserrat;
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+     </property>
+     <property name="dragEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string notr="true">Nome</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="inp_senha_cadastrar_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>351</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	border: none; /* Remove a borda padrão */
+    border-bottom: 1px solid #fff; /* Adiciona uma borda inferior de 1px sólida */
+    background-color: transparent;/* Define o Background como transparente*/
+	color: #fffffffff;
+	font-size: 20px; /* Defina o tamanho do texto do placeholder desejado */
+	padding-left: 10px;
+	font-style: montserrat;
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>13</number>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+     </property>
+     <property name="dragEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string notr="true">Senha</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_cadastrar_usuario">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>361</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;u8-p&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;sdfwesf&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-style: montserrat;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Cadastrar Usuário&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="img_background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>919</width>
+      <height>597</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>919</width>
+      <height>597</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/cadastra usuario.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_barra_lateral_esquerda">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>51</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/barra_lateral_esquerda.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_barra_lateral_direita">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>0</y>
+      <width>71</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/barra_lateral_direita.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_logo_hub_1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>310</y>
+      <width>351</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/Group_37hubacademyefeito-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_logo_hub_2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>150</y>
+      <width>351</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagens/Group_37hubacademyefeito-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>img_background</zorder>
+   <zorder>img_logo_hub_2</zorder>
+   <zorder>img_logo_hub_1</zorder>
+   <zorder>frame_area_cadastrar</zorder>
+   <zorder>img_barra_lateral_esquerda</zorder>
+   <zorder>img_barra_lateral_direita</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="QRC_login.qrc"/>
+ </resources>
+ <connections/>
+</ui>

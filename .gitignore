@@ -1,0 +1,61 @@
+# Caso de não funcione na sua maquina o comando a baixo ajudara.
+# Este codigo ira remover do controle de versão.
+# Executar este comando no terminal, e depois fechar o Visual Code e abrir de novo
+# git rm -r --cached __pycache__
+
+
+# Arquivos de compilação e bytecode Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos gerados por ferramentas de desenvolvimento
+*.db
+*.sqlite
+*.log
+
+# Diretórios de ambiente virtual (venv ou virtualenv)
+venv/
+env/
+*.venv/
+*.env/
+
+# Diretórios e arquivos específicos do Qt (Qt Creator, QML, etc.)
+/.qmake.stash
+/.user/
+*.pro.user
+*.user
+*.xml
+*.qm
+
+# Build e saída de compilação (pode variar dependendo do projeto)
+/build/
+/bin/
+/out/
+
+# Arquivos temporários e de backup
+*.bak
+*~
+
+# Arquivos de configuração pessoal
+.DS_Store
+Thumbs.db
+
+# Logs e saída de erros
+*.log
+error.log
+debug.log
+
+# Cache
+.cache/
+
+# Dependências de gerenciamento de pacotes
+/node_modules/
+/pip-modules/
+
+# Arquivos de dados sensíveis (por exemplo, chaves de API)
+config.json
+
+# Arquivos de configuração IDE (por exemplo, para Visual Studio Code)
+.vscode/
